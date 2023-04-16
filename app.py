@@ -7,7 +7,6 @@ from nltk.corpus import stopwords
 nltk.download('stopwords')
 nltk.download('punkt')
 
-
 # Load the vectorizer from the file
 with open('vectorizer.pkl', 'rb') as f:
     vectorizer = pickle.load(f)
